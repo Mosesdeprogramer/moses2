@@ -1,19 +1,19 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
 body {
-    background-image: url(./medium-shot-man-working-beach.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-  }
-  
-main{
+  background-image: url(./medium-shot-man-working-beach.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+main {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21,19 +21,18 @@ main{
   margin: 100px auto;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: center;
   background-color: inherit;
   width: 300px;
   box-shadow: 0px 2px 10px 1px;
   border-radius: 5px;
   padding: 20px;
+  align-items: center;
 }
 
-input{
+input {
   width: 90%;
   padding: 7px;
   margin: 4px;
@@ -41,7 +40,7 @@ input{
   border: gainsboro;
 }
 
-button{
+button {
   width: 85%;
   padding: 6px;
   margin: 4px;
@@ -51,22 +50,55 @@ button{
   color: #fec56c;
 }
 
-button:hover{
+button:hover {
   background-color: #05152e;
   background-color: green;
   color: #ffffff;
   cursor: pointer;
 }
 
-h1{
+h1 {
   color: #fec56c;
+  margin-bottom: 10px;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
+  text-decoration-color: #fec56c;
+}
+
+form p{
+  color: #d4b6b4;
+}
+
+nav{
+  background-color: #223656;
+padding: 15px;
+}
+
+nav a{
+  text-decoration: none;
+ 
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav li{
+  list-style-type: none;
+ padding-left: 50px;
+}
+
+.active{
+ display: flex;
+ margin-right: 600px;
 }
