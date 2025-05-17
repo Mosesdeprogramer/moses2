@@ -1,99 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url(./medium-shot-man-working-beach.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-  }
-  
-  .main {
-    display: flex;
-    flex-direction: row;
-    /* border: 1px solid red; */
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto;
-  }
-  
-  .header {
-    /* border: 2px solid green; */
-    max-width: 500px;
-  }
-  
-  .header h1 {
-    color: blue;
-    font-size: 55px;
-    font-weight: 900;
-    margin-bottom: 0px;
-  }
-  
-  .header p {
-    font-size: 20px;
-    color: aliceblue;
-  }
-  
-  .formBased {
-    /* border: 2px solid blue; */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form {
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
-    padding: 10px;
-    background-color: inherit;
-    box-shadow: 0px 2px 10px 1px;
-    border-radius: 5px;
-  }
-  
-  input {
-    padding: 10px;
-    border-radius: 5px;
-    /* outline: 1px solid blue; */
-    border: 1px solid gainsboro;
-    outline: none;
-  }
-  
-  .btn {
-    padding: 10px;
-    background-color: blue;
-    color: white;
-    font-size: 15px;
-    border-radius: 7px;
-    font-weight: 700;
-    /* margin-bottom: 5px; */
-    border: none;
-  }
-  
-  a {
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .btn2 {
-    padding: 10px;
-    border: none;
-    background-color: green;
-    color: white;
-    width: fit-content;
-    border-radius: 5px;
-    margin: 7px auto;
-    /* opacity: 0.2; */
-    /* display: none; */
-  }
-  
-  .footer {
-    margin: 18px;
-  }
-  
-  input::placeholder{
-      font-style: italic;
-  }
+  background-image: url(./medium-shot-man-working-beach.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+  width: 300px;
+  box-shadow: 0px 2px 10px 1px;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  padding: 7px;
+  margin: 4px;
+  border-radius: 5px;
+  border: gainsboro; 
+}
+
+button {
+  width: 85%;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 7px;
+  border: gainsboro;
+  background-color: #223656;
+  color: #fec56c;
+}
+
+button:hover {
+  background-color: #05152e;
+  background-color: green;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+h1 {
+  color: #fec56c;
+  margin-bottom: 10px;
+  text-shadow: 0px 2px 10px black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fec56c;
+}
+
+form p {
+  color: #d4b6b4;
+  font-size: small;
+}
+
+nav {
+  background-color: #223656;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+.active {
+  display: flex;
+  margin-right: 600px;
+}

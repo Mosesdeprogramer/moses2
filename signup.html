@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main">
-      <div class="header">
-        <h1>facebook</h1>
-        <p>
-          facebook helps you to connect and share with the people in your life
-        </p>
-      </div>
+    <nav>
+      <ul>
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="articles.html">Articles</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form>
+        <head>
+          <h1>Login or Signup</h1>
+        </head>
 
-      <div class="formBased">
-        <form>
-          <input type="text" placeholder="Email address" />
-          <input type="password" placeholder="password" />
-          <button class="btn">Log In</button>
-          <a href="#">Forget Password ?</a>
-          <hr />
-          <button class="btn2">Create new account</button>
-        </form>
-        <p class="footer">Create a page for a celebrity. brand or business</p>
-      </div>
-     
-    </div>
+        <input type="text" placeholder="Phone Number" required maxlength="8" />
+        <input type="password" placeholder="Password" required maxlength="8" />
+        <a href="#">Forgetten password ?</a>
+        <button type="submit">Log in</button>
+        <p>OR</p>
+        <button>Signup</button>
+      </form>
+    </main>
   </body>
 </html>
